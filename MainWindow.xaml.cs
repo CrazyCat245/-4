@@ -20,6 +20,7 @@ namespace 作業4
     /// </summary>
     public partial class MainWindow : Window
     {
+      
         public MainWindow()
         {
             InitializeComponent();
