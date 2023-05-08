@@ -10,19 +10,19 @@
         <Button x:Name="btnSeven" Content="7" Height="NaN" Margin="196,97,494,294" Width="NaN" Click="btnSeven_Click"/>
         <Button x:Name="btnEight" Content="8" Height="NaN" Margin="328,97,362,294" Width="NaN" Click="btnEight_Click"/>
         <Button x:Name="btnNine" Content="9" Height="NaN" Margin="459,97,231,294" Width="NaN" Click="btnNine_Click"/>
-        <Button x:Name="btnDivide" Content="/" Height="NaN" Margin="594,97,96,294" Width="NaN"/>
+        <Button x:Name="btnDivide" Content="/" Height="NaN" Margin="594,97,96,294" Width="NaN" Click="btnDivide_Click"/>
         <Button x:Name="btnSix" Content="6" Height="NaN" Margin="196,168,494,223" Width="NaN" Click="btnSix_Click"/>
         <Button x:Name="btnFive" Content="5" Height="NaN" Margin="328,168,362,223" Width="NaN" Click="btnFive_Click"/>
         <Button x:Name="btnFour" Content="4" Height="NaN" Margin="459,168,231,223" Width="NaN" Click="btnFour_Click"/>
-        <Button x:Name="btnPlus" Content="*" Height="NaN" Margin="594,168,96,223" Width="NaN"/>
+        <Button x:Name="btnPlus" Content="*" Height="NaN" Margin="594,168,96,223" Width="NaN" Click="btnPlus_Click"/>
         <Button x:Name="btnThree" Content="3" Height="NaN" Margin="196,229,494,162" Width="NaN" Click="btnThree_Click"/>
         <Button x:Name="btnTwo" Content="2" Height="NaN" Margin="328,229,362,162" Width="NaN" Click="btnTwo_Click"/>
         <Button x:Name="btnOne" Content="1" Height="NaN" Margin="459,229,231,162" Width="NaN" Click="btnOne_Click"/>
-        <Button x:Name="btnMinus" Content="-" Height="NaN" Margin="594,229,96,162" Width="NaN"/>
-        <Button x:Name="btnDot" Content="." Height="NaN" Margin="196,295,494,97" Width="NaN"/>
+        <Button x:Name="btnMinus" Content="-" Height="NaN" Margin="594,229,96,162" Width="NaN" Click="btnMinus_Click"/>
+        <Button x:Name="btnDot" Content="." Height="NaN" Margin="196,295,494,97" Width="NaN" Click="btnDot_Click"/>
         <Button x:Name="btnZero" Content="0" Height="NaN" Margin="328,295,362,97" Width="NaN" Click="btnZero_Click"/>
-        <Button x:Name="btnEqual" Content="=" Height="NaN" Margin="459,295,231,97" Width="NaN"/>
-        <Button x:Name="btnAdd" Content="+" Height="NaN" Margin="594,295,96,97" Width="NaN"/>
+        <Button x:Name="btnEqual" Content="=" Height="NaN" Margin="459,295,231,97" Width="NaN" Click="btnEqual_Click"/>
+        <Button x:Name="btnAdd" Content="+" Height="NaN" Margin="594,295,96,97" Width="NaN" Click="btnAdd_Click"/>
         <Button x:Name="btnClear" Content="AC" Height="NaN" Margin="62,97,628,294" Width="NaN" Click="btnClear_Click"/>
         <TextBox x:Name="txtNumber" TextWrapping="Wrap" Height="NaN" Margin="196,25,96,360"/>
     </Grid>
