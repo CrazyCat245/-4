@@ -25,5 +25,7 @@
         <Button x:Name="btnAdd" Content="+" Height="NaN" Margin="594,295,96,97" Width="NaN" Click="btnAdd_Click"/>
         <Button x:Name="btnClear" Content="AC" Height="NaN" Margin="62,97,628,294" Width="NaN" Click="btnClear_Click"/>
         <TextBox x:Name="txtNumber" TextWrapping="Wrap" Height="NaN" Margin="196,25,96,360"/>
+        <Button x:Name="btnDel" Content="&lt;&lt;" Margin="62,168,632,223" Click="btnDel_Click"/>
+        <Button x:Name="btnhun" Content="%" Margin="64,229,630,162" Click="btnhun_Click"/>
     </Grid>
 </Window>

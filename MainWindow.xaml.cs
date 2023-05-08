@@ -20,6 +20,7 @@ namespace 作業4
     /// </summary>
     public partial class MainWindow : Window
     {
+
         float firstNumber, secondNumber; // firstNumber 儲存第一個數字，secondNumber 儲存第二個數字
         int operators = -1; // 記錄選擇哪一種運算符號？0:加、1:減、2:乘、3:除、-1:重新設定
         public MainWindow()
@@ -125,6 +126,20 @@ namespace 作業4
                 txtNumber.Text = txtNumber.Text + ".";
         }
 
+        private void btnDel_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtNumber.Text.Length > 0)
+            {
+                txtNumber.Text = txtNumber.Text.Substring(0, txtNumber.Text.Length - 1);
+            }
+        }
+
+        private void btnhun_Click(object sender, RoutedEventArgs e)
+        {
+            firstNumber = Convert.ToSingle(txtNumber.Text);
+            txtNumber.Text = (firstNumber / 100).ToString();
+        }
+
         private void btnEqual_Click(object sender, RoutedEventArgs e)
         {
             float finalResults = 0f; //宣告最後計算結果變數
@@ -145,6 +160,10 @@ namespace 作業4
                 case 3:
                     finalResults = firstNumber / secondNumber;
                     break;
+    //            case 4:
+     //               firstNumber = Convert.ToSingle(txtNumber.Text);
+       //             txtNumber.Text = (firstNumber / 100).ToString();
+       //             break;
             }
 
             txtNumber.Text = string.Format("{0:0.##########}", finalResults); //在輸入文字框中，顯示最後計算結果，並且轉換成格式化的字串內容
